@@ -1,10 +1,84 @@
----
-title: Boostrap Index
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
+<!DOCTYPE html>
+<html lang="en">
 
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Boostrap Index</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/style/all.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- 引入CKeditor -->
+    
+    <div class="container d-flex">
+    <div class="sidebar-menu d-flex flex-column justify-content-between h800">
+    <div>
+    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/logo-ANSWER.svg" alt="">
+    <ul class="nav flex-column">
+      <li class="nav-item">
+        
+        <a class="nav-link active" aria-current="page" href="#">
+          <span class="material-icons">
+            assessment
+            </span>
+          Dashboard
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <span class="material-icons">
+            question_answer
+            </span>  
+            Question
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <span class="material-icons">
+            assignment
+            </span>
+            Assignment
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <span class="material-icons">
+            video_library
+            </span>
+          Course
+        </a>
+      </li><li class="nav-item">
+        <a class="nav-link" href="#">
+          <span class="material-icons">
+            supervisor_account
+            </span>
+            Admin
+        </a>
+      </li><li class="nav-item">
+        <a class="nav-link" href="#">
+          <span class="material-icons">
+            settings
+            </span>
+            Settings
+        </a>
+      </li>
+    </ul>
+    </div>
+    <div class="person d-flex">
+    <div class="person-pic"></div>
+    <div>
+      <h2 class="fz-3">Andy Chen</h2>
+      <p class="fz-2">andy0401@mail.com</p>
+    </div>
+    </div>
+    </div>
+
+    
 <div class="index">
 <div class="header">
 
@@ -219,3 +293,10 @@ current: index
     console.error( error );
   } );
 </script>
+
+    </div>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+
+</html>
